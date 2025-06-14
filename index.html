@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transportes DEMALSO - Transportamos tu tranquilidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <div class="container">
+            <img src="imagenes/logo.png" alt="Logo Transportes DEMALSO" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#flota">Flota</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2>Especialistas en transporte de alimentos</h2>
+            <p>Ofrecemos soluciones logísticas seguras y eficientes para productos secos, refrigerados y congelados.</p>
+        </div>
+    </section>
+
+    <!-- Sección Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2>Nuestros servicios</h2>
+            <div class="service-box">
+                <img src="imagenes/seco.jpg" alt="Mercancía Seca">
+                <h3>Mercancía Seca</h3>
+                <p>Entregas seguras sin necesidad de control de temperatura.</p>
+            </div>
+            <div class="service-box">
+                <img src="imagenes/refrigerado.jpg" alt="Refrigerado">
+                <h3>Refrigerado</h3>
+                <p>Control de temperatura constante para productos perecederos.</p>
+            </div>
+            <div class="service-box">
+                <img src="imagenes/congelado.jpg" alt="Congelado">
+                <h3>Congelado</h3>
+                <p>Transporte especializado a temperaturas bajo cero garantizadas.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Flota -->
+    <section id="flota" class="fleet">
+        <div class="container">
+            <h2>Nuestra flota</h2>
+            <p>Contamos con una amplia gama de vehículos para satisfacer cualquier necesidad:</p>
+            <ul>
+                <li>1 Camión grande de alta capacidad</li>
+                <li>10 camiones de 3500 kg ideales para entregas locales y regionales</li>
+            </ul>
+            <img src="imagenes/flota.jpg" alt="Nuestra flota de camiones" class="fleet-image">
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna consulta? ¡Estamos aquí para ayudarte!</p>
+            <form id="contactForm">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                <button type="submit">Enviar mensaje</button>
+            </form>
+            <p><strong>Teléfono:</strong> <a href="tel:+34662375782">662 375 782</a></p>
+            <p><strong>Email:</strong> <a href="mailto:transportes@demalso.com">transportes@demalso.com</a></p>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Transportes DEMALSO. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Script para validación del formulario -->
+    <script src="script.js"></script>
+</body>
+</html>
