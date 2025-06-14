@@ -1,103 +1,131 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Transportes DEMALSO - Transportamos tu tranquilidad</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transportes DEMALSO - Transportamos tu tranquilidad</title>
+  <meta name="description" content="Empresa especializada en transporte de mercancía alimentaria seca, refrigerada y congelada. Contamos con flota propia y experiencia en logística." />
+  <script src="https://cdn.tailwindcss.com"></script> 
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+  </style>
 </head>
-    <meta name="description" content="Transportes DEMALSO ofrece servicios logísticos especializados en mercancía seca, refrigerada y congelada.">
-<meta name="keywords" content="transporte alimentos, transporte refrigerado, transporte congelado, camiones grandes, logística alimentaria">
-<meta name="author" content="Transportes DEMALSO"><body>
+<body class="bg-white text-gray-800">
 
-    <!-- Cabecera -->
-    <header>
-        <div class="container">
-            <img src="imagenes/logo.png" alt="Logo Transportes DEMALSO" class="logo">
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#flota">Flota</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
+  <!-- Navbar -->
+  <header class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+    <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">DEMALSO</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#inicio" class="hover:text-yellow-300 transition">Inicio</a> 
+        <a href="#servicios" class="hover:text-yellow-300 transition">Servicios</a>
+        <a href="#flota" class="hover:text-yellow-300 transition">Flota</a>
+        <a href="#contacto" class="hover:text-yellow-300 transition">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="bg-blue-800 text-white py-20">
+    <div class="container mx-auto px-4 text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Especialistas en transporte de alimentos</h2>
+      <p class="text-lg md:text-xl max-w-3xl mx-auto">
+        Ofrecemos soluciones logísticas seguras y eficientes para productos secos, refrigerados y congelados.
+      </p>
+      <p class="mt-6 italic">transportamos tu tranquilidad... hasta la puerta de tu cliente</p>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Nuestros servicios</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition text-center">
+          <img src="https://placehold.co/400x250?text=Mercancía+Seca" alt="Mercancía Seca" class="mx-auto mb-4 rounded">
+          <h3 class="text-xl font-semibold mb-2">Mercancía Seca</h3>
+          <p>Entregas seguras sin necesidad de control de temperatura.</p>
         </div>
-    </header>
-
-    <!-- Sección Inicio -->
-    <section id="inicio" class="hero">
-        <div class="container">
-            <h2>Especialistas en transporte de alimentos</h2>
-            <p>Ofrecemos soluciones logísticas seguras y eficientes para productos secos, refrigerados y congelados.</p>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition text-center">
+          <img src="https://placehold.co/400x250?text=Refrigerado" alt="Refrigerado" class="mx-auto mb-4 rounded">
+          <h3 class="text-xl font-semibold mb-2">Refrigerado</h3>
+          <p>Control de temperatura constante para productos perecederos.</p>
         </div>
-    </section>
-
-    <!-- Sección Servicios -->
-    <section id="servicios" class="services">
-        <div class="container">
-            <h2>Nuestros servicios</h2>
-            <div class="service-box">
-                <img src="imagenes/seco.jpg" alt="Mercancía Seca">
-                <h3>Mercancía Seca</h3>
-                <p>Entregas seguras sin necesidad de control de temperatura.</p>
-            </div>
-            <div class="service-box">
-                <img src="imagenes/refrigerado.jpg" alt="Refrigerado">
-                <h3>Refrigerado</h3>
-                <p>Control de temperatura constante para productos perecederos.</p>
-            </div>
-            <div class="service-box">
-                <img src="imagenes/congelado.jpg" alt="Congelado">
-                <h3>Congelado</h3>
-                <p>Transporte especializado a temperaturas bajo cero garantizadas.</p>
-            </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition text-center">
+          <img src="https://placehold.co/400x250?text=Congelado" alt="Congelado" class="mx-auto mb-4 rounded">
+          <h3 class="text-xl font-semibold mb-2">Congelado</h3>
+          <p>Transporte especializado a temperaturas bajo cero garantizadas.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Sección Flota -->
-    <section id="flota" class="fleet">
-        <div class="container">
-            <h2>Nuestra flota</h2>
-            <p>Contamos con una amplia gama de vehículos para satisfacer cualquier necesidad:</p>
-            <ul>
-                <li>1 Camión grande de alta capacidad</li>
-                <li>10 camiones de 3500 kg ideales para entregas locales y regionales</li>
-            </ul>
-            <img src="imagenes/flota.jpg" alt="Nuestra flota de camiones" class="fleet-image">
+  <!-- Flota -->
+  <section id="flota" class="py-16">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-8 text-blue-900">Nuestra flota</h2>
+      <p class="text-center max-w-2xl mx-auto mb-6">
+        Contamos con una amplia gama de vehículos para satisfacer cualquier necesidad:
+      </p>
+      <ul class="list-disc list-inside text-center max-w-md mx-auto space-y-2 mb-6">
+        <li>1 Camión grande de alta capacidad</li>
+        <li>10 camiones de 3500 kg ideales para entregas locales y regionales</li>
+      </ul>
+      <div class="flex justify-center">
+        <img src="https://placehold.co/800x400?text=Nuestra+Flota+de+Camiones" alt="Nuestra flota de camiones" class="rounded shadow-md">
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 bg-gray-100">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-12 text-blue-900">Contacto</h2>
+      <p class="text-center max-w-xl mx-auto mb-8">
+        ¿Tienes alguna consulta? ¡Estamos aquí para ayudarte!
+      </p>
+      <form id="contactForm" class="max-w-lg mx-auto bg-white p-8 rounded shadow">
+        <div class="mb-4">
+          <label for="nombre" class="block text-sm font-medium mb-2">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
-    </section>
-
-    <!-- Sección Contacto -->
-    <section id="contacto" class="contact">
-        <div class="container">
-            <h2>Contacto</h2>
-            <p>¿Tienes alguna consulta? ¡Estamos aquí para ayudarte!</p>
-            <form id="contactForm">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-
-                <label for="email">Correo electrónico:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
-
-                <button type="submit">Enviar mensaje</button>
-            </form>
-            <p><strong>Teléfono:</strong> <a href="tel:+34662375782">662 375 782</a></p>
-            <p><strong>Email:</strong> <a href="mailto:transportes@demalso.com">transportes@demalso.com</a></p>
+        <div class="mb-4">
+          <label for="email" class="block text-sm font-medium mb-2">Correo electrónico</label>
+          <input type="email" id="email" name="email" required class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
         </div>
-    </section>
-
-    <!-- Pie de página -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Transportes DEMALSO. Todos los derechos reservados.</p>
+        <div class="mb-6">
+          <label for="mensaje" class="block text-sm font-medium mb-2">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required class="w-full border border-gray-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
         </div>
-    </footer>
+        <button type="submit" class="w-full bg-blue-900 text-white py-3 rounded hover:bg-blue-800 transition">
+          Enviar mensaje
+        </button>
+      </form>
+      <div class="text-center mt-8">
+        <p><strong>Teléfono:</strong> <a href="tel:+34662375782" class="text-blue-600 hover:underline">662 375 782</a></p>
+        <p><strong>Email:</strong> <a href="mailto:transportes@demalso.com" class="text-blue-600 hover:underline">transportes@demalso.com</a></p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Script para validación del formulario -->
-    <script src="script.js"></script>
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-6">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; 2025 Transportes DEMALSO. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Script para el formulario -->
+  <script>
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert("Gracias por tu mensaje. Nos pondremos en contacto contigo pronto.");
+      this.reset();
+    });
+  </script>
+
 </body>
 </html>
